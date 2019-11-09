@@ -17,7 +17,7 @@
 
       <v-icon></v-icon>
       <v-toolbar-items v-bind:key="item" v-for="item in items" class="hidden-xs-only">
-        <v-btn text>
+        <v-btn text @click="$vuetify.goTo(item.target)">
             <v-icon left class="cyan--text text--dark-6">{{ item.icon }}</v-icon>
             {{item.title}}
         </v-btn>
@@ -44,7 +44,7 @@
             <v-icon class="cyan--text text--dark-6">{{ item.icon }}</v-icon>
           </v-list-item-icon>
 
-          <v-list-item-content>
+          <v-list-item-content @click="$vuetify.goTo(item.target)">
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
@@ -70,10 +70,10 @@ export default {
   data: () => ({
         drawer: null,
         items: [
-          { title: 'About me', icon: 'fas fa-user-alt' },
-          { title: 'Experience', icon: 'fas fa-code-branch' },
-          { title: 'Education', icon: 'fas fa-book-open' },
-          { title: 'Skills', icon: 'fas fa-user-tag' },
+          { title: 'About me', icon: 'fas fa-user-alt', target: '#about'},
+          { title: 'Experience', icon: 'fas fa-code-branch',target: '#experience' },
+          { title: 'Education', icon: 'fas fa-book-open',target: '#education'},
+          { title: 'Skills', icon: 'fas fa-user-tag',target: '#skills' },
           
         ],
     //

@@ -37,7 +37,7 @@
           align-center
         >
           <v-flex xs12 sm4 class="my-5">
-            <div class="text-center">
+            <div class="text-center" id='about'>
               <v-icon class="cyan--text text--dark-2">fas fa-user-alt</v-icon>
               <h2 class="headline">About me</h2>
             </div>
@@ -70,7 +70,7 @@
           align-center
         >
           <v-flex xs12 sm4 class="my-5">
-            <div class="text-center">
+            <div class="text-center" id='experience'>
               <v-icon class="cyan--text text--dark-2">fas fa-code-branch</v-icon>
               <h2 class="headline">Experience</h2>
             </div>
@@ -104,7 +104,7 @@
           align-center
         >
           <v-flex xs12 sm4 class="my-5">
-            <div class="text-center">
+            <div class="text-center" id="education">
               <v-icon class="cyan--text text--dark-2">fas fa-book-open</v-icon>
               <h2 class="headline">Education</h2>
             </div>
