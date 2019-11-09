@@ -6,11 +6,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "postinstall": "npm install express",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build",
+    "install": "npm install express",
     "start": "node server.js"
   },
   "dependencies": {
     "core-js": "^3.3.2",
+    "serve": "^11.2.0",
     "vue": "^2.6.10",
     "vuetify": "^2.1.0"
   },
