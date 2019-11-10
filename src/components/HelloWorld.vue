@@ -156,7 +156,6 @@
       </v-layout>
     </section>
 
-
     <section>
       <v-layout column align-center>
         <v-flex xs12 sm4 class="my-5">
@@ -167,7 +166,6 @@
         </v-flex>
       </v-layout>
     </section>
-
   </v-content>
 </template>
 
