@@ -9,5 +9,8 @@ app.use(express.static(__dirname + '/public'));
 app.use(function(req, res) {
     res.sendFile(path.join(__dirname, '/public', 'index.html'));
 });
-// const port = ;
-app.listen(process.env.PORT || 3000);
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+  console.log(`Server listening on port: ${port}`);
+});
