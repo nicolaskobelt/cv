@@ -47,7 +47,7 @@
       <HelloWorld />
     </v-content>
 
-  <v-card height="50">
+  <v-card height="60" color="gray">
     <v-footer
       absolute
       class="font-weight-medium"

@@ -157,12 +157,24 @@
     </section>
 
     <section>
-      <v-layout column align-center>
+      <v-layout column >
         <v-flex xs12 sm4 class="my-5">
           <div class="text-center" id="skills">
             <v-icon class="cyan--text text--dark-2">fas fa-user-tag</v-icon>
             <h2 class="headline">Skills</h2>
           </div>
+        </v-flex>
+        <div class="text-center">
+         <h4 > Technologic stack</h4>
+        </div>
+        <v-flex sm4>
+          <v-row justify="space-around">
+          <v-icon 
+          v-bind:key="icon" 
+          v-for="icon in icons"
+          large
+          color="grey lighten-1" >{{icon.name}}</v-icon>
+          </v-row>
         </v-flex>
       </v-layout>
     </section>
@@ -173,6 +185,19 @@
 export default {
   name: "HelloWorld",
 
-  data: () => ({})
+  data: () => ({
+    icons: [
+      {'name': 'fab fa-angular'}, 
+      {'name': 'fab fa-docker'},
+      {'name': 'fab fa-vuejs'}, 
+      {'name': 'fab fa-node'},
+      {'name': 'fab fa-git-square'},
+      {'name': 'fab fa-jenkins'}, 
+      {'name': 'fab fa-js'}, 
+      {'name': 'fab fa-php'}, 
+      {'name': 'fab fa-python'}, 
+      {'name':'fab fa-sass'}
+    ]
+  })
 };
 </script>
