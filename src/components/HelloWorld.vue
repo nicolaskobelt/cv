@@ -11,7 +11,7 @@
         ></v-img>
       </div>
       <h2 class="white--text mb-2 display-2 text-center">Nicolás Kobelt</h2>
-      <h2 class="white--text mb-2 text-center">Student of Systems Engineering</h2>
+      <h2 class="white--text mb-2 text-center">Systems Engineer</h2>
       <div class="mx-auto">
         <v-row justify="space-around">
           <v-btn text dark href="https://www.linkedin.com/in/nicolaskobelt/" target="_blank">
@@ -45,8 +45,7 @@
                 <v-card-text
                   v-resize-text="{ratio:1.5, minFontSize: '5px', maxFontSize: '20px', delay: 200}"
                 >
-                  I am a student of the Systems Engineering degree, I am in the last year.
-                  In this career I managed to affirm my passions for the development of technology,
+                  I borned in Córdoba, Argentina. I am passionate for the development of technology,
                   I love discovering new things and taking time to learn them in order to improve every day.
                   I like to work in a team, to meet new people so I can also learn new things,
                   not only technology, other cultures, customs, etc.
@@ -100,6 +99,30 @@
             <h2 class="headline">Education</h2>
           </div>
         </v-flex>
+
+                <v-flex>
+          <v-container>
+            <v-list-item justify="center">
+              <v-list-item-avatar>
+                <v-img
+                  src="../assets/acamica.png"
+                  class="center center"
+                  contain
+                  width="120px"
+                  height="100px"
+                ></v-img>
+              </v-list-item-avatar>
+              <v-list-item-content>
+                <v-list-item-title
+                  v-resize-text="{ratio:1.5, minFontSize: '5px', maxFontSize: '20px', delay: 200}"
+                >Data Science</v-list-item-title>
+                <v-list-item-subtitle>Acámica</v-list-item-subtitle>
+                <v-list-item-subtitle>April 2020 - Present</v-list-item-subtitle>
+              </v-list-item-content>
+            </v-list-item>
+          </v-container>
+        </v-flex>
+
         <v-flex>
           <v-container>
             <v-list-item justify="center">
@@ -117,7 +140,7 @@
                   v-resize-text="{ratio:1.5, minFontSize: '5px', maxFontSize: '20px', delay: 200}"
                 >Systems Engineering</v-list-item-title>
                 <v-list-item-subtitle>Universidad Católica de Córdoba</v-list-item-subtitle>
-                <v-list-item-subtitle>March 2015 - Present</v-list-item-subtitle>
+                <v-list-item-subtitle>2015 - 2020</v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
           </v-container>
@@ -140,7 +163,7 @@
                   v-resize-text="{ratio:1.5, minFontSize: '5px', maxFontSize: '20px', delay: 200}"
                 >Project Management Diploma</v-list-item-title>
                 <v-list-item-subtitle>Universidad Católica de Córdoba</v-list-item-subtitle>
-                <v-list-item-subtitle>June 2019 - October 2019</v-list-item-subtitle>
+                <v-list-item-subtitle>June 2019 - November 2019</v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
           </v-container>
