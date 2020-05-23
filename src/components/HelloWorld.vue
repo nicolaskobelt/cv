@@ -45,7 +45,7 @@
                 <v-card-text
                   v-resize-text="{ratio:1.5, minFontSize: '5px', maxFontSize: '20px', delay: 200}"
                 >
-                  I was borned in Córdoba, Argentina. I am passionate for the development of technology,
+                  I was born in Córdoba, Argentina. I am passionate for the development of technology,
                   I love discovering new things and taking time to learn them in order to improve every day.
                   I like to work in a team, to meet new people so I can also learn new things,
                   not only technology, other cultures, customs, etc.
