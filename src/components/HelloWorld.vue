@@ -274,6 +274,7 @@ export default {
       { name: "fab fa-angular" },
       { name: "fab fa-docker" },
       { name: "fab fa-vuejs" },
+      { name: "react" },
       { name: "fab fa-node" },
       { name: "fab fa-git-square" },
       { name: "fab fa-jenkins" },
