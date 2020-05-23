@@ -273,13 +273,11 @@ export default {
     icons: [
       { name: "fab fa-angular" },
       { name: "fab fa-docker" },
-      { name: "fab fa-vuejs" },
       { name: "fab fa-react" },
       { name: "fab fa-node" },
       { name: "fab fa-git-square" },
       { name: "fab fa-jenkins" },
       { name: "fab fa-js" },
-      { name: "fab fa-php" },
       { name: "fab fa-python" },
       { name: "fab fa-sass" }
     ],
