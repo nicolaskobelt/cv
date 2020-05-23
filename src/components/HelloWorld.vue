@@ -45,7 +45,7 @@
                 <v-card-text
                   v-resize-text="{ratio:1.5, minFontSize: '5px', maxFontSize: '20px', delay: 200}"
                 >
-                  I borned in Córdoba, Argentina. I am passionate for the development of technology,
+                  I was borned in Córdoba, Argentina. I am passionate for the development of technology,
                   I love discovering new things and taking time to learn them in order to improve every day.
                   I like to work in a team, to meet new people so I can also learn new things,
                   not only technology, other cultures, customs, etc.
@@ -221,7 +221,7 @@
               <p class="display-0 text--primary">Web Focused</p>
               <p>Javascript, Typescript, more!</p>
               <div class="text--primary">
-                When I started to learn to programming
+                When I started learn programming
                 the last technologies on the market was 
                 based on web/cloud this is why I'm working on these.
               </div>
